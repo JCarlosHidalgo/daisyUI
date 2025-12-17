@@ -1,15 +1,17 @@
 <script setup>
 import Dropdown from '../Minimal/Dropdown.vue';
 import ThemeController from '../Minimal/ThemeController.vue';
+import BannerBoldata from '../Svgs/bannerBoldata.vue';
+import BannerIconBoldata from '../Svgs/bannerIconBoldata.vue';
 </script>
 
 <template>
     <header>
-        <nav class="bg-base-200 py-5 rounded-b-3xl">
+        <nav class="bg-base-200 py-3 rounded-b-3xl">
             <div class="flex justify-between items-center">
-                <a class="flex items-center pl-10 ">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap text-base-content">Flowbite</span>
+                <a class="flex items-center pl-5 space-x-3">
+                    <BannerIconBoldata scale="0.55"></BannerIconBoldata>
+                    <BannerBoldata scale="0.4"></BannerBoldata>
                 </a>
                 <div class="join max-lg:hidden">
                     <Dropdown header-message="Hello" additional-header-style="btn-ghost join-item">

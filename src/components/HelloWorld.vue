@@ -2,17 +2,16 @@
 import Header from './Header/Header.vue';
 import Carousel from './Minimal/Carousel.vue';
 import Dropdown from './Minimal/Dropdown.vue';
+import BannerlogoBoldata from './Svgs/bannerlogoBoldata.vue';
 
 </script>
-
-
-
 <template>
     <Header></Header>
 
-    <body class="flex flex-col items-center my-5">
+    <body class="flex flex-col items-center my-5 space-y-10">
+        <BannerlogoBoldata scale="3"></BannerlogoBoldata>
         <div
-            class="flex p-10 mb-5 shadow-lg shadow-base-300 rounded-3xl space-x-5 max-lg:space-x-0 max-lg:flex-col max-lg:items-center max-lg:space-y-5">
+            class="flex p-10 shadow-lg shadow-base-300 rounded-3xl space-x-5 max-lg:space-x-0 max-lg:flex-col max-lg:items-center max-lg:space-y-5">
             <Dropdown header-message="Hello" additional-header-style="rounded-xl"
                 additional-dropdown-style="dropdown-center">
                 <template #HeaderIcon>
@@ -48,7 +47,6 @@ import Dropdown from './Minimal/Dropdown.vue';
             </label>
             <button class="btn btn-primary">Search</button>
         </div>
-        
         <Carousel></Carousel>
 
     </body>
