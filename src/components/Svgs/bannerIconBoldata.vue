@@ -4,7 +4,7 @@ defineProps({
 })
 </script>
 <template>
-    <svg :width="116*scale" :height="81*scale" viewBox="0 0 116 81" class="fill-base-content" >
+    <svg viewBox="0 0 116 81" class="fill-base-content w-14 shrink" >
         <path
             d="M19.2144 23.5377C30.9648 22.3144 41.4956 30.7802 42.7648 42.4696C44.0332 54.1592 35.562 64.668 23.82 65.97C12.022 67.2784 1.40037 58.7988 0.125969 47.0532C-1.14963 35.308 7.40758 24.7668 19.2144 23.5377Z"
             fill="#E61D20" />

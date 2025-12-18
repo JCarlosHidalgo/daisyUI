@@ -9,7 +9,7 @@ import BannerIconBoldata from '../Svgs/bannerIconBoldata.vue';
     <header>
         <nav class="bg-base-200 py-3 rounded-b-3xl">
             <div class="flex justify-between items-center">
-                <a class="flex items-center pl-5 space-x-3">
+                <a class="flex items-center mx-10 space-x-3">
                     <BannerIconBoldata scale="0.55"></BannerIconBoldata>
                     <BannerBoldata scale="0.4"></BannerBoldata>
                 </a>
