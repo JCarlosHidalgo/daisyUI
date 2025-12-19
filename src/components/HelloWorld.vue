@@ -48,7 +48,7 @@ import BannerlogoBoldata from './Svgs/bannerlogoBoldata.vue';
             </label>
             <button class="btn btn-primary">Search</button>
         </div>
-        <Carousel></Carousel>
+        <Carousel carousel-height="500"></Carousel>
     </body>
 
     <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-full border p-4">
